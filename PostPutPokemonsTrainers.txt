@@ -1,0 +1,35 @@
+﻿Pokemon
+
+{
+  "Name": "Charizard",
+  "Species": "Flame",
+  "Type": "Fire",
+  "TrainerId": 1
+}
+
+{
+  "PokemonId": 3,
+  "Name": "Charizard",
+  "Species": "Flame",
+  "Type": "Fire",
+  "TrainerId": 1
+}
+
+
+Trainer
+
+{
+  "Name": "Ash",
+  "Surname": "Ketchum",
+  "Age": 10,
+  "Gender": "Male"
+}
+
+
+{
+  "TrainerId": 2,
+  "Name": "Ash",
+  "Surname": "Ketchum",
+  "Age": 15,
+  "Gender": "Male"
+}
