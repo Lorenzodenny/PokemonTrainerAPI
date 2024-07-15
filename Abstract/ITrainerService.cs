@@ -1,6 +1,6 @@
 ﻿using PokemonTrainerAPI.DTO;
 
-namespace PokemonTrainerAPI.Services
+namespace PokemonTrainerAPI.Abstract
 {
     public interface ITrainerService
     {

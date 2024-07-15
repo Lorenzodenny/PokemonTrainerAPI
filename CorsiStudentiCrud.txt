@@ -1,0 +1,18 @@
+ Aggiungi un corso
+
+ {
+  "title": "Introduction to Programming"
+}
+
+aggiungi uno studente
+
+{
+  "name": "John Doe"
+}
+
+iscrivi uno studente a un corso
+
+{
+  "studentId": 1,
+  "courseId": 1
+}

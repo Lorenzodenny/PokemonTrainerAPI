@@ -26,5 +26,11 @@ public class AutoMapperProfile : Profile
         // Aggiungi questa riga per configurare la mappatura inversa
         CreateMap<TrainerDTO, Trainer>()
             .ForMember(dest => dest.Pokemons, opt => opt.Ignore()); // Ignora la lista di Pokemons perché non viene gestita direttamente dal DTO
+
+        // setta student ie corsi
+
+        CreateMap<Student, StudentDTO>().ReverseMap();
+        CreateMap<Course, CourseDTO>().ReverseMap();
+        CreateMap<StudentCourse, StudentCourseDTO>().ReverseMap();
     }
 }

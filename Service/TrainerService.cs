@@ -9,6 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using static PokemonTrainerAPI.Controllers.PokemonController;
+using PokemonTrainerAPI.Abstract;
 
 namespace PokemonTrainerAPI.Services
 {

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using PokemonTrainerAPI.Abstract;
 using PokemonTrainerAPI.Data;
 using PokemonTrainerAPI.Model;
+using PokemonTrainerAPI.Service;
 using PokemonTrainerAPI.Services;
 using Serilog;
 using Serilog.Events;
@@ -35,6 +36,7 @@ builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 // Registrazione dei servizi per la Dependency Injection
 builder.Services.AddScoped<IPokemonService, PokemonService>();
 builder.Services.AddScoped<ITrainerService, TrainerService>();
+builder.Services.AddTransient<ISchoolService, SchoolService>();
 builder.Services.AddScoped<IPokemonFactory, PokemonFactory>();
 builder.Services.AddTransient<TrainerBuilder>(); 
 

@@ -9,7 +9,6 @@ using PokemonTrainerAPI.Abstract;
 using PokemonTrainerAPI.Data;
 using PokemonTrainerAPI.DTO;
 using PokemonTrainerAPI.Model;
-using PokemonTrainerAPI.Services;
 
 namespace PokemonTrainerAPI.Controllers
 {

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using PokemonTrainerAPI.Data;
 using PokemonTrainerAPI.Model;
 using PokemonTrainerAPI.DTO;
-using PokemonTrainerAPI.Services;
+using PokemonTrainerAPI.Abstract;
 
 namespace PokemonTrainerAPI.Controllers
 {
